@@ -1,0 +1,54 @@
+﻿.card-container {
+    perspective: 700px;
+}
+
+.card {
+    margin: 20px;
+    background: #f00;
+    width: 200px;
+    height: 200px;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+    .card:hover {
+        transform: rotateY(180deg);
+    }
+
+.front, .back {
+    #f00
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    backface-visibility: hidden;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+h2 {
+    color: #2eb8b8;
+    font-family: Cambria, Georgia, serif;
+}
+
+h1 {
+    border-bottom: 2px black solid;
+    font-family: Cambria, Georgia, serif;
+    color: #2eb8b8;
+}
+
+#info {
+    display: inline;
+}
+
+#subheading {
+    font-weight: bold;
+}
+
+body {
+    background-image: url("http://itgenes.com/wp-content/uploads/2013/05/simple-blue-opera-background-light-49001-645x300.jpg");
+    background-size: cover;
+    margin: 1rem 150px 100px 80px;
+}
